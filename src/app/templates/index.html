@@ -33,7 +33,7 @@
 
         {% if result %}
         <div class="result-section">
-            <h2 class="text-{{ 'right' if get_locale == 'fa' else 'left' }}">"Generated Words":</h2>
+            <h2 class="text-{{ 'right' if get_locale == 'fa' else 'left' }}">Generated Words:</h2>
             <input type="text" id="search" class="form-control mb-3" placeholder="'Search words...'">
             <div class="row">
                 {% for word in result %}
