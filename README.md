@@ -15,7 +15,7 @@ Welcome to the Flask Permutation App! This simple web application allows users t
 
 Make sure you have the following installed on your system:
 
-- Python (version x.x.x)
+- Python (version 3.10)
 - Flask (install via `pip install flask`)
 
 ### Installation
